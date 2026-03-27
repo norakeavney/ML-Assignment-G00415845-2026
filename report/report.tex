@@ -1,0 +1,147 @@
+% ********************************************************************
+% *                  Format for IMVIP 2019  papers,                  *
+% *         based on the IMVIP 2001, 2006, 2014-2018 templates       *
+% ********************************************************************
+\documentclass[a4paper,11pt]{article}
+
+
+
+\setlength{\topmargin}{-0.5cm}
+\setlength{\headsep}{.5cm}
+%\setlength{\footskip}{1.0cm}
+\setlength{\textheight}{24cm}
+\setlength{\textwidth}{17cm}
+\setlength{\evensidemargin}{-.5cm}
+\setlength{\oddsidemargin}{-.5cm}
+
+
+
+\usepackage{fourier}
+\usepackage{color}
+ \usepackage{graphicx}
+\usepackage{url}
+\usepackage[affil-it]{authblk}
+\usepackage{amsmath}
+\usepackage{wrapfig}
+\usepackage{xspace}
+
+\usepackage[T1]{fontenc}
+\usepackage{times}
+
+
+\pagestyle{empty}
+
+%%%%
+\begin{document}
+
+\title{Author Instructions for IMVIP 2019}
+
+\author{Nora Keavney}
+\affil{Anonymous Affiliation}
+\date{}
+\maketitle
+\thispagestyle{empty}
+
+
+
+\begin{abstract}
+This is the \LaTeX\xspace template to be used for submitting a paper
+to the Irish Machine Vision and Image Processing Conference (IMVIP)
+2019 that is taking place in Technical University Dublin, Grangegorman Campus from $28^{th}$ 
+to $30^{th}$ August, 2019. The conference website is at
+\url{http://www.imvip.ie}. This template is mainly filled in
+with \textit{lorem ipsum} to illustrate the expected layout of the
+publication to submit.  Some examples for inserting and referring to
+equations, bibliographic references, tables and figures are also
+provided. Should an author prefer to use a document preparation system
+or editor other than \LaTeX\xspace, please ensure that the resultant
+submission meets the same look and dimensions as this template.  This
+template can be compiled with pdflatex \& bibtex to create the final
+paper in pdf format. Full papers must be a \textbf{maximum of 8 pages
+}.
+\end{abstract}
+\textbf{Keywords:} Imaging, Image Processing, Machine Vision, etc. (Maximum five)
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%
+\section{Introduction}
+
+\section{Dataset and Preprocessing}
+
+\section{Methodology}
+
+\section{Experiments and Results}
+
+\section{Discussion}
+
+\section{Conclusion}
+
+\section{Example: Creating a figure}
+
+Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem ipsum, quia dolor sit amet consectetur adipisci[ng] velit, sed quia non numquam [do] eius modi tempora inci[di]dunt, ut labore et dolore magnam aliquam quaerat voluptatem.
+Figure \ref{fig:myfig} shows individual colour channels. 
+\begin{figure}[!ht]
+\begin{center}
+\includegraphics[width=1\textwidth]{DIT_Grangegorman.png}
+\end{center}
+\vspace{-20pt}
+  \caption{A figure}\label{fig:myfig}
+  \vspace{-10pt}
+\end{figure}
+
+
+
+%% comment line
+\section{Example: Creating a table}
+
+Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem ipsum, quia dolor sit amet consectetur adipisci[ng] velit, sed quia non numquam [do] eius modi tempora inci[di]dunt, ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit, qui in ea voluptate velit esse, quam nihil molestiae consequatur, vel illum, qui dolorem eum fugiat, quo voluptas nulla pariatur?
+An example of table is shown Table \ref{tab:mytab}.
+\begin{table}[!ht]
+\begin{center}
+\begin{tabular}{|c|c|c|}
+\hline
+x & y & z\\
+\hline
+\end{tabular}
+\end{center}
+\vspace{-20pt}
+\caption{Example of table.} \label{tab:mytab}
+  \vspace{-10pt}
+\end{table}
+
+\subsection{Bibliographic references}
+References in a bib file format (e.g. imvip2019.bib given in the template) can be inserted using bibtex along with
+\LaTeX\xspace/pdflatex (e.g.  \cite{hartley} or  \cite{jain, goodfellow}). 
+
+\section{Conclusion}
+
+
+\section*{Acknowledgments}
+
+The Acknowledgments section, if included,
+		       follows the main body of the text and is headed
+		       ``Acknowledgments,'' printed in the same style
+		       as a section heading, but without a number.
+
+%%%%%%%%%%%%%%%%%%%%%%%%
+\appendix
+
+\section{My first appendix }
+
+Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem ipsum, quia dolor sit amet consectetur adipisci[ng] velit, sed quia non numquam [do] eius modi tempora inci[di]dunt, ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit, qui in ea voluptate velit esse, quam nihil molestiae consequatur, vel illum, qui dolorem eum fugiat, quo voluptas nulla pariatur?
+
+
+\section{My second appendix }
+
+
+Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem ipsum, quia dolor sit amet consectetur adipisci[ng] velit, sed quia non numquam [do] eius modi tempora inci[di]dunt, ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit, qui in ea voluptate velit esse, quam nihil molestiae consequatur, vel illum, qui dolorem eum fugiat, quo voluptas nulla pariatur?
+
+
+\bibliographystyle{apalike}
+
+\bibliography{imvip}
+
+
+\end{document}
+
