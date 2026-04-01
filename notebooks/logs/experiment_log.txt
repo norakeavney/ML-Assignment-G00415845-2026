@@ -1,0 +1,10 @@
+
+========================================
+Time: 2026-04-01 01:04:03
+Model: Test Model
+Parameters: {'C': 1.0, 'kernel': 'linear'}
+Training Time (s): 15.50
+Train Accuracy: 0.9876
+Validation Accuracy: 0.9654
+Notes: This is just a test to see if the logging works.
+========================================
