@@ -8,3 +8,13 @@ Train Accuracy: 0.9876
 Validation Accuracy: 0.9654
 Notes: This is just a test to see if the logging works.
 ========================================
+
+========================================
+Time: 2026-04-02 12:59:51
+Model: CNN_v1_baseline
+Parameters: {'optimizer': 'adam', 'loss': 'sparse_categorical_crossentropy', 'epochs': 10, 'image_size': '128x128', 'color_mode': 'RGB'}
+Training Time (s): 652.25
+Train Accuracy: 0.7597
+Validation Accuracy: 0.6752
+Notes: Baseline CNN, 128x128, RGB
+========================================
