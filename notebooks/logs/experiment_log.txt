@@ -8,3 +8,33 @@ Train Accuracy: 0.7783
 Validation Accuracy: 0.7122
 Notes: Initial baseline CNN trained on RGB images
 ========================================
+
+========================================
+Time: 2026-04-04 13:44:31
+Model: CNN + Dropout
+Parameters: {'epochs': 10, 'dropout': 0.5}
+Training Time (s): 580.47
+Train Accuracy: 0.7016
+Validation Accuracy: 0.6546
+Notes: Added dropout to reduce overfitting
+========================================
+
+========================================
+Time: 2026-04-04 14:03:47
+Model: CNN + Dropout (0.2)
+Parameters: {'epochs': 10, 'dropout': 0.2}
+Training Time (s): 494.60
+Train Accuracy: 0.7145
+Validation Accuracy: 0.6571
+Notes: Added dropout to reduce overfitting
+========================================
+
+========================================
+Time: 2026-04-04 15:21:51
+Model: Baseline CNN (64 x 64 img)
+Parameters: {'optimizer': 'adam', 'loss': 'sparse_categorical_crossentropy', 'epochs': 10}
+Training Time (s): 152.95
+Train Accuracy: 0.8789
+Validation Accuracy: 0.5806
+Notes: Initial baseline CNN trained on 64x64 images
+========================================
