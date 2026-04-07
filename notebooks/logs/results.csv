@@ -3,3 +3,5 @@ Baseline CNN,"{'optimizer': 'adam', 'loss': 'sparse_categorical_crossentropy', '
 CNN + Dropout,"{'epochs': 10, 'dropout': 0.5}",0.7015846967697144,0.6546052694320679,580.4657652378082,0.046979427337646484,Dropout added
 CNN + Dropout (0.2),"{'epochs': 10, 'dropout': 0.2}",0.7145187854766846,0.6570723652839661,494.6003999710083,0.057446420192718506,Dropout added
 Baseline CNN (64 x 64 img),"{'optimizer': 'adam', 'loss': 'sparse_categorical_crossentropy', 'epochs': 10}",0.8789326548576355,0.5805920958518982,152.95437049865723,0.2983405590057373,Initial baseline CNN trained on 64x64 images
+Baseline CNN (64 x 64 img) RERUN,"{'optimizer': 'adam', 'loss': 'sparse_categorical_crossentropy', 'epochs': 10}",0.8789326548576355,0.5805920958518982,138.79793310165405,0.2983405590057373,Initial baseline CNN trained on 64x64 images
+Baseline CNN (64 x 64 img) RERUN!,"{'optimizer': 'adam', 'loss': 'sparse_categorical_crossentropy', 'epochs': 10}",0.917268693447113,0.6554276347160339,138.79793310165405,0.2618410587310791,Initial baseline CNN trained on 64x64 images

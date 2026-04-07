@@ -38,3 +38,23 @@ Train Accuracy: 0.8789
 Validation Accuracy: 0.5806
 Notes: Initial baseline CNN trained on 64x64 images
 ========================================
+
+========================================
+Time: 2026-04-04 16:29:29
+Model: Baseline CNN (64 x 64 img) RERUN
+Parameters: {'optimizer': 'adam', 'loss': 'sparse_categorical_crossentropy', 'epochs': 10}
+Training Time (s): 138.80
+Train Accuracy: 0.8789
+Validation Accuracy: 0.5806
+Notes: Initial baseline CNN trained on 64x64 images
+========================================
+
+========================================
+Time: 2026-04-04 16:30:00
+Model: Baseline CNN (64 x 64 img) RERUN!
+Parameters: {'optimizer': 'adam', 'loss': 'sparse_categorical_crossentropy', 'epochs': 10}
+Training Time (s): 138.80
+Train Accuracy: 0.9173
+Validation Accuracy: 0.6554
+Notes: Initial baseline CNN trained on 64x64 images
+========================================
