@@ -28,3 +28,23 @@ Train Accuracy: 0.9245
 Validation Accuracy: 0.6743
 Notes: Initial baseline CNN trained on 64x64 images
 ========================================
+
+========================================
+Time: 2026-04-07 22:41:54
+Model: CNN + Augmentation
+Parameters: {'epochs': 10, 'augmentation': True}
+Training Time (s): 640.64
+Train Accuracy: 0.5770
+Validation Accuracy: 0.5263
+Notes: Added augmentation only
+========================================
+
+========================================
+Time: 2026-04-07 23:06:41
+Model: CNN + Augmentation WITH IMAGE_SIZE=(64, 64) AND 0.05 ROTATION AND NO ZOOM
+Parameters: {'epochs': 15, 'augmentation': True}
+Training Time (s): 264.79
+Train Accuracy: 0.8535
+Validation Accuracy: 0.7031
+Notes: Added augmentation only
+========================================

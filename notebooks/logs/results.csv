@@ -2,3 +2,5 @@ Model,Parameters,Train Accuracy,Validation Accuracy,Training Time (s),Overfittin
 Baseline CNN,"{'optimizer': 'adam', 'loss': 'sparse_categorical_crossentropy', 'epochs': 10}",0.9573525786399841,0.6381579041481018,597.7139117717743,0.3191946744918823,Initial baseline CNN trained on RGB images
 CNN + Dropout (0.2),"{'epochs': 10, 'dropout': 0.2}",0.9470985531806946,0.6554276347160339,567.5283315181732,0.29167091846466064,Dropout added
 Baseline CNN (64 x 64 img) RERUN!,"{'optimizer': 'adam', 'loss': 'sparse_categorical_crossentropy', 'epochs': 10}",0.924493134021759,0.6743420958518982,152.45678544044495,0.25015103816986084,Initial baseline CNN trained on 64x64 images
+CNN + Augmentation,"{'epochs': 10, 'augmentation': True}",0.5770216584205627,0.5263158082962036,640.6398484706879,0.05070585012435913,Augmentation only
+"CNN + Augmentation WITH IMAGE_SIZE=(64, 64) AND 0.05 ROTATION AND NO ZOOM","{'epochs': 15, 'augmentation': True}",0.8535306453704834,0.703125,264.7923629283905,0.1504056453704834,Augmentation only
