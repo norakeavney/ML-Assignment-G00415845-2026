@@ -1,60 +1,30 @@
 
 ========================================
-Time: 2026-04-04 13:20:13
+Time: 2026-04-07 22:18:24
 Model: Baseline CNN
 Parameters: {'optimizer': 'adam', 'loss': 'sparse_categorical_crossentropy', 'epochs': 10}
-Training Time (s): 644.74
-Train Accuracy: 0.7783
-Validation Accuracy: 0.7122
+Training Time (s): 597.71
+Train Accuracy: 0.9574
+Validation Accuracy: 0.6382
 Notes: Initial baseline CNN trained on RGB images
 ========================================
 
 ========================================
-Time: 2026-04-04 13:44:31
-Model: CNN + Dropout
-Parameters: {'epochs': 10, 'dropout': 0.5}
-Training Time (s): 580.47
-Train Accuracy: 0.7016
-Validation Accuracy: 0.6546
-Notes: Added dropout to reduce overfitting
-========================================
-
-========================================
-Time: 2026-04-04 14:03:47
+Time: 2026-04-07 22:28:10
 Model: CNN + Dropout (0.2)
 Parameters: {'epochs': 10, 'dropout': 0.2}
-Training Time (s): 494.60
-Train Accuracy: 0.7145
-Validation Accuracy: 0.6571
+Training Time (s): 567.53
+Train Accuracy: 0.9471
+Validation Accuracy: 0.6554
 Notes: Added dropout to reduce overfitting
 ========================================
 
 ========================================
-Time: 2026-04-04 15:21:51
-Model: Baseline CNN (64 x 64 img)
-Parameters: {'optimizer': 'adam', 'loss': 'sparse_categorical_crossentropy', 'epochs': 10}
-Training Time (s): 152.95
-Train Accuracy: 0.8789
-Validation Accuracy: 0.5806
-Notes: Initial baseline CNN trained on 64x64 images
-========================================
-
-========================================
-Time: 2026-04-04 16:29:29
-Model: Baseline CNN (64 x 64 img) RERUN
-Parameters: {'optimizer': 'adam', 'loss': 'sparse_categorical_crossentropy', 'epochs': 10}
-Training Time (s): 138.80
-Train Accuracy: 0.8789
-Validation Accuracy: 0.5806
-Notes: Initial baseline CNN trained on 64x64 images
-========================================
-
-========================================
-Time: 2026-04-04 16:30:00
+Time: 2026-04-07 22:30:53
 Model: Baseline CNN (64 x 64 img) RERUN!
 Parameters: {'optimizer': 'adam', 'loss': 'sparse_categorical_crossentropy', 'epochs': 10}
-Training Time (s): 138.80
-Train Accuracy: 0.9173
-Validation Accuracy: 0.6554
+Training Time (s): 152.46
+Train Accuracy: 0.9245
+Validation Accuracy: 0.6743
 Notes: Initial baseline CNN trained on 64x64 images
 ========================================
