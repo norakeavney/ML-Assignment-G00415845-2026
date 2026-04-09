@@ -58,3 +58,13 @@ Train Accuracy: 0.8235
 Validation Accuracy: 0.6801
 Notes: Added Conv2D(256) layer to increase depth (64x64 RGB + augmentation)
 ========================================
+
+========================================
+Time: 2026-04-09 16:11:20
+Model: CNN + Smaller Extra Conv Layer
+Parameters: {'epochs': 15, 'extra_conv': True, 'extra_filters': 128}
+Training Time (s): 173.08
+Train Accuracy: 0.7877
+Validation Accuracy: 0.6859
+Notes: Added smaller extra Conv2D(128) layer (64x64 RGB + augmentation)
+========================================
