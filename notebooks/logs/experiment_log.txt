@@ -68,3 +68,13 @@ Train Accuracy: 0.7877
 Validation Accuracy: 0.6859
 Notes: Added smaller extra Conv2D(128) layer (64x64 RGB + augmentation)
 ========================================
+
+========================================
+Time: 2026-04-09 16:21:49
+Model: CNN - Grayscale (64x64 + Augmentation)
+Parameters: {'epochs': 15, 'grayscale': True}
+Training Time (s): 172.32
+Train Accuracy: 0.7290
+Validation Accuracy: 0.5954
+Notes: Same architecture as best RGB model but using grayscale input
+========================================

@@ -1,0 +1,9 @@
+Model,Parameters,Train Accuracy,Validation Accuracy,Training Time (s),Overfitting (Train - Val),Notes
+Baseline CNN,{'epochs': 10},0.9574,0.6382,597.71,0.31920000000000004,Initial baseline CNN
+CNN + Dropout (0.2),"{'epochs': 10, 'dropout': 0.2}",0.9471,0.6554,567.53,0.29170000000000007,Reduced overfitting
+Baseline CNN (64x64),"{'epochs': 10, 'img_size': '64x64'}",0.9245,0.6743,152.46,0.2502,Smaller images improved generalisation
+CNN + Augmentation (bad),"{'epochs': 10, 'augmentation': True}",0.577,0.5263,640.64,0.05069999999999997,Too aggressive augmentation
+CNN + Augmentation (best),"{'epochs': 15, 'img_size': '64x64', 'augmentation': 'tuned'}",0.8535,0.7031,264.79,0.1504000000000001,Best model
+CNN + Extra Conv (256),"{'epochs': 15, 'extra_conv': 256}",0.8235,0.6801,268.63,0.14339999999999997,Deeper model
+CNN + Extra Conv (128),"{'epochs': 15, 'extra_conv': 128}",0.7877,0.6859,173.08,0.1018,Smaller extra layer
+CNN Grayscale,"{'epochs': 15, 'grayscale': True}",0.729,0.5954,172.32,0.13359999999999994,Colour information removed

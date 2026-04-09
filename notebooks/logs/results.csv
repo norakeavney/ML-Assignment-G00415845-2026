@@ -1,3 +1,4 @@
 Model,Parameters,Train Accuracy,Validation Accuracy,Training Time (s),Overfitting (Train - Val),Notes
 CNN + Deeper Architecture (Extra Conv Layer),"{'epochs': 15, 'extra_conv': True}",0.8234677314758301,0.6800987124443054,268.6301820278168,0.14336901903152466,Extra Conv layer added
 CNN + Smaller Extra Conv Layer,"{'epochs': 15, 'extra_conv': True, 'extra_filters': 128}",0.7876951694488525,0.6858552694320679,173.08122181892395,0.10183990001678467,Smaller extra Conv layer added
+CNN - Grayscale (64x64 + Augmentation),"{'epochs': 15, 'grayscale': True}",0.7289676070213318,0.5953947305679321,172.31560254096985,0.13357287645339966,Grayscale comparison
