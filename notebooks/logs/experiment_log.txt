@@ -48,3 +48,13 @@ Train Accuracy: 0.8535
 Validation Accuracy: 0.7031
 Notes: Added augmentation only
 ========================================
+
+========================================
+Time: 2026-04-09 16:02:17
+Model: CNN + Deeper Architecture (Extra Conv Layer)
+Parameters: {'epochs': 15, 'extra_conv': True}
+Training Time (s): 268.63
+Train Accuracy: 0.8235
+Validation Accuracy: 0.6801
+Notes: Added Conv2D(256) layer to increase depth (64x64 RGB + augmentation)
+========================================
