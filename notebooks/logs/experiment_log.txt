@@ -78,3 +78,13 @@ Train Accuracy: 0.7290
 Validation Accuracy: 0.5954
 Notes: Same architecture as best RGB model but using grayscale input
 ========================================
+
+========================================
+Time: 2026-04-11 13:35:49
+Model: MobileNetV2 (Frozen)
+Parameters: {'input_size': '224x224', 'trainable': False, 'epochs': 10}
+Training Time (s): 1921.83
+Train Accuracy: 0.9830
+Validation Accuracy: 0.9087
+Notes: Transfer learning using MobileNetV2 with frozen base layers
+========================================
