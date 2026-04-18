@@ -88,3 +88,33 @@ Train Accuracy: 0.9830
 Validation Accuracy: 0.9087
 Notes: Transfer learning using MobileNetV2 with frozen base layers
 ========================================
+
+========================================
+Time: 2026-04-18 10:05:59
+Model: MobileNetV2 (Fine-tuned)
+Parameters: {'input_size': '224x224', 'unfrozen_layers': 'top 30', 'learning_rate': 1e-05, 'epochs': 3}
+Training Time (s): 746.58
+Train Accuracy: 0.7957
+Validation Accuracy: 0.8569
+Notes: Fine-tuned transfer learning - 
+========================================
+
+========================================
+Time: 2026-04-18 10:38:39
+Model: MobileNetV2 (Frozen) RERUN!
+Parameters: {'input_size': '224x224', 'trainable': False, 'epochs': 10}
+Training Time (s): 1710.10
+Train Accuracy: 0.9839
+Validation Accuracy: 0.9169
+Notes: Transfer learning using MobileNetV2 with frozen base layers
+========================================
+
+========================================
+Time: 2026-04-18 10:48:49
+Model: MobileNetV2 (Fine-tuned) RERUN!
+Parameters: {'input_size': '224x224', 'unfrozen_layers': 'top 30', 'learning_rate': 1e-05, 'epochs': 3}
+Training Time (s): 591.43
+Train Accuracy: 0.9548
+Validation Accuracy: 0.9169
+Notes: Fine-tuned transfer learning - 
+========================================

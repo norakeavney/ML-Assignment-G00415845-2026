@@ -7,4 +7,6 @@ CNN + Augmentation (best),"{'epochs': 15, 'img_size': '64x64', 'augmentation': '
 CNN + Extra Conv (256),"{'epochs': 15, 'extra_conv': 256}",0.8235,0.6801,268.63,0.1433999999999999,Deeper model
 CNN + Extra Conv (128),"{'epochs': 15, 'extra_conv': 128}",0.7877,0.6859,173.08,0.1018,Smaller extra layer
 CNN Grayscale,"{'epochs': 15, 'grayscale': True}",0.729,0.5954,172.32,0.1335999999999999,Colour information removed
-MobileNetV2 (Frozen),"{'input_size': '224x224', 'trainable': False, 'epochs': 10}",0.982987642288208,0.9087170958518982,1751.9558761119843,0.07427054643630981,Transfer learning (frozen base)
+MobileNetV2 (Fine-tuned),"{'input_size': '224x224', 'unfrozen_layers': 'top 30', 'learning_rate': 1e-05, 'epochs': 3}",0.795735239982605,0.8569079041481018,610.4118938446045,-0.061172664165496826,Fine-tuned transfer learning
+MobileNetV2 (Frozen) RERUN!,"{'input_size': '224x224', 'trainable': False, 'epochs': 10}",0.9839198589324951,0.9169408082962036,1687.669127702713,0.0669790506362915,Transfer learning (frozen base)
+MobileNetV2 (Fine-tuned) RERUN!,"{'input_size': '224x224', 'unfrozen_layers': 'top 30', 'learning_rate': 1e-05, 'epochs': 3}",0.9547891020774841,0.9169408082962036,591.412960767746,0.03784829378128052,Fine-tuned transfer learning
