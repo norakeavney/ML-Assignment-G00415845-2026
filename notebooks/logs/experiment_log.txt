@@ -118,3 +118,23 @@ Train Accuracy: 0.9548
 Validation Accuracy: 0.9169
 Notes: Fine-tuned transfer learning - 
 ========================================
+
+========================================
+Time: 2026-04-27 15:16:59
+Model: Baseline CNN (64x64)
+Parameters: {'optimizer': 'adam', 'loss': 'sparse_categorical_crossentropy', 'epochs': 10}
+Training Time (s): 171.56
+Train Accuracy: 0.8901
+Validation Accuracy: 0.6669
+Notes: Baseline CNN retrained on 64x64 images
+========================================
+
+========================================
+Time: 2026-04-27 15:21:25
+Model: CNN + Augmentation (64x64)
+Parameters: {'epochs': 15, 'augmentation': True}
+Training Time (s): 258.64
+Train Accuracy: 0.8235
+Validation Accuracy: 0.6768
+Notes: Random flip + 0.05 rotation
+========================================
